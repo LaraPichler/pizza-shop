@@ -1,0 +1,15 @@
+<body>
+<div class="pizzaGrid">
+<ul>
+  <li>
+    <img *ngFor="let p of pizzaArray; let i = index" src="{{p.image}}">
+  </li>
+  <li>
+    <p *ngFor="let p of pizzaArray; let i = index"> {{p.name}}</p>
+  </li>
+  <li>
+    <p *ngFor="let p of pizzaArray; let i = index"> {{p.price}}</p>
+  </li>
+</ul>
+</div>
+</body>

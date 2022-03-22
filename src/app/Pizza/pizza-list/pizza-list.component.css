@@ -1,0 +1,34 @@
+
+img{
+  width: 200px;
+  height: auto;
+  padding-left: 70px;
+  margin: 2%;
+}
+
+li{
+  background-color: lightgrey;
+}
+
+.pizzaGrid {
+  text-align: center;
+}
+
+.pizzaGrid li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+.pizzaGrid li p {
+  padding-left: 10%;
+  padding-right: 5%;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.PizzaVariants hr {
+  margin-left: 10%;
+  margin-right: 10%;
+}
